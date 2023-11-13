@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script type="text/javascript" src="https://unpkg.com/jquery-snowfall@1.7.4/dist/snowfall.jquery.min.js" ></script>
+<script>
+  setTimeout(function (argument) {
+    $(document).snowfall({flakeCount : 100, minSize:1, maxSize:4, round: 4});
+  }, 1000);
+</script>
 <title>Page Title</title>
 </head>
 <body>
